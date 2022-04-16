@@ -1,0 +1,39 @@
+.app {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  min-height: 100vh;
+}
+.app_container {
+  width: 80%;
+  height: 100%;
+  max-width: 375px;
+  background-color: rgb(61, 61, 184);
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.clear-button {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 765px) {
+  .app_container {
+    width: 90%;
+  }
+}
+
+.img {
+  height: 30%;
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+}
